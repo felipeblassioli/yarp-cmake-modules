@@ -11,7 +11,8 @@ if(CMAKE_VERSION VERSION_LESS 2.8.12)
                                Modules/FindPackageMessage.cmake
                                Modules/CMakeParseArguments.cmake
                                Modules/SelectLibraryConfigurations.cmake
-                               Modules/FindFreetype.cmake)
+                               Modules/FindFreetype.cmake
+                               Modules/FindPkgConfig.cmake)
     install(FILES ${YCM_CMAKE_2_8_12_FILES}
             DESTINATION share/YCM/cmake-2.8.12/Modules)
 endif()
